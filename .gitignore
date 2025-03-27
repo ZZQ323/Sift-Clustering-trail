@@ -4,6 +4,6 @@
 !/dataset/
 !/dataset/*/
 
-/result/*
-!/result
+result/*
+!result/
 
