@@ -56,6 +56,20 @@ FPR = 10.91%
 Computational time: 00:06:47.8
 ```
 
+使用参数：`Birch(n_clusters=7, threshold = 0.1, branching factor = 50)`
+```bash
+Copy-Move Forgery Detection performance:
+TPR = 97.27%
+FPR = 11.82%
+Computational time: 00:08:27.1
+```
+
+使用参数：`Birch(n_clusters=9, threshold = 0.1, branching factor = 30)`
+```bash
+
+
+```
+
 
 默认参数：
 
@@ -73,3 +87,11 @@ Computational time: 00:07:34.4
 ```
 
 
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           2025/3/27    16:38                
+d----           2025/3/27    16:38                
+d----           2025/3/27    16:38                
+d----           2025/3/27    16:31                
+d----           2025/3/27     2:08                
+d----           2025/3/27     2:08                
