@@ -1,6 +1,8 @@
-/dataset/casia1groundtruth-master/*
-/dataset/casia2groundtruth-master/*
-/dataset/Columbia Uncompressed Image Splicing Detection/*
-/dataset/MICC_F600/*
-/dataset/MICC-F2000/*
-/dataset/MICC-F220/*
+# 忽略 dataset 下所有内容（包括子目录内的所有内容）
+dataset/*
+
+# 保留 dataset 下的所有子目录（即仅保留文件夹本身）
+!dataset/*/
+
+# 再次忽略子目录内的所有内容
+dataset/*/**
