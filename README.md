@@ -75,10 +75,7 @@ Computational time: 00:07:21.3
 
 使用参数：`Birch(n_clusters=8, threshold = 0.1, branching factor = 35)`
 ```bash
-Copy-Move Forgery Detection performance:
-TPR = 95.45%
-FPR = 11.82%
-Computational time: 00:07:21.3
+
 ```
 
 
