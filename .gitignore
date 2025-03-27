@@ -1,0 +1,8 @@
+# 忽略 dataset 下所有的内容
+dataset/*
+
+# 但保留 dataset 下的所有子目录
+!dataset/*/
+
+# 忽略每个子目录中所有的内容（无论层级多深）
+dataset/*/**
