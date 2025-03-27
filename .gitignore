@@ -1,8 +1,8 @@
 # 忽略 dataset 下所有内容
-/dataset/**/*.*
+dataset/**/*
 # 但是保留子文件夹
-!/dataset/
-!/dataset/*/
+!dataset/
+!dataset/*/
 
 result/*
 !result/
