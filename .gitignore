@@ -4,3 +4,5 @@
 # 但是不要忽略目录本身
 !/dataset/
 !/dataset/**/
+
+result/**
