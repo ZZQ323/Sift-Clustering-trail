@@ -86,8 +86,14 @@ Computational time: 00:07:03.9
 ```bash
 Copy-Move Forgery Detection performance:
 TPR = 97.27%
-FPR = 11.82%
-Computational time: 00:07:03.9
+FPR = 10.91%
+```
+
+使用参数：`Birch(n_clusters=8, threshold = 0.1, branching factor = 10)`
+```bash
+Copy-Move Forgery Detection performance:
+TPR = 97.27%
+FPR = 10.91%
 ```
 
 

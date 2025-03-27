@@ -13,7 +13,7 @@ def BIRCH_SIFT(
     min_cluster_pts=5,   # 最小特征点数阈值
     ratio_thresh=0.6,    # Lowe’s Ratio Test 阈值
     thc = 0.1,              # BIRCH 中的 threshold, 表示子聚类的最大半径
-    bfac = 20,
+    bfac = 10,
     dist_thresh=10,      # 自匹配排除距离阈值
     plotimg=False, 
     saveimg=False
