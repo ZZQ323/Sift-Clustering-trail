@@ -1,14 +1,15 @@
 import os
 import time
 
-
 def run_experiment():
     # 1. 基础配置
     methods = "BIRCH"
     db_dir = 'dataset'
     # run_F200_experiment
     DB = 'MICC-F220' 
+    # DB = 'MICC-F2000' 
     file_ground_truth = 'groundtruthDB_220.txt'
+    # file_ground_truth = 'groundtruthDB_2000.txt'
     
     # 使用方法
     if methods =="HAC":

@@ -10,10 +10,10 @@ from itertools import combinations
 def BIRCH_SIFT(
     filename,
     methods="BIRCH",
-    min_cluster_pts=5,   # 最小特征点数阈值
+    min_cluster_pts=3,   # 最小特征点数阈值
     ratio_thresh=0.6,    # Lowe’s Ratio Test 阈值
-    thc = 0.1,              # BIRCH 中的 threshold, 表示子聚类的最大半径
-    bfac = 10,
+    thc = 0.3,           # BIRCH 中的 threshold, 表示子聚类的最大半径
+    bfac = 30,
     dist_thresh=10,      # 自匹配排除距离阈值
     plotimg=False, 
     saveimg=False
@@ -64,7 +64,8 @@ def BIRCH_SIFT(
     # 注意：threshold 表示子聚类直径/半径控制，可根据需求调整
     # metric 只支持 euclidean，所以在这里不使用 metric 参数
     # birch_model = Birch()
-    birch_model = Birch(n_clusters=8, threshold=thc,branching_factor=bfac)
+    # birch_model = Birch(n_clusters=8, threshold=thc,branching_factor=bfac)
+    birch_model = Birch(n_clusters=7, threshold=0.1,branching_factor=10)
     clusters = birch_model.fit_predict(points)  # 获得每个点对应的聚类标签
 
     # 初始化结果

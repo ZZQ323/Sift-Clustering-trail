@@ -9,6 +9,12 @@
 
 ### DBSCAN
 
+```bash
+Copy-Move Forgery Detection performance:
+TPR = 90.91%
+FPR = 10.91%
+Computational time: 00:21:26.5
+```
 
 ### BRICH
 
